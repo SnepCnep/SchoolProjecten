@@ -1,0 +1,130 @@
+body {
+    scroll-behavior: smooth;
+}
+
+#overmij,
+#projecten,
+#contact {
+    scroll-margin-top: 50px;
+}
+
+/* Catagory's */
+div.index-container.home {
+    background-image: url("../img/home-background.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+div.index-container.overmij {
+    background-image: url("../img/overmij-background.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+div.index-container.projecten {
+    background-image: url("../img/projecten-background.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+div.index-container.contact {
+    background-image: url("../img/contact-background.jpeg");
+    background-size: cover;
+    min-height: 95vh;
+}
+
+/* Catagory's instellingen */
+div.index-container .index-title {
+    color: rgb(145, 148, 148);
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 580%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15%;
+    font-family: sans-serif;
+}
+
+div.index-container .index-title2 {
+    color: rgb(11, 197, 218);
+    text-align: center;
+    font-size: 380%;
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5%;
+}
+
+div.index-container .card {
+    background-color: hsla(0, 0%, 98%, 0.80);
+}
+
+div.index-container .card-group {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.index-container.contact .fromulier {
+    margin-top: 13%;
+    font-weight: bold;
+    font-size: 120%;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+    color: rgb(9, 169, 113);
+}
+
+/* Navbar */
+.navbar-logo {
+    width: auto;
+    height: 40px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(5, 229, 245) !important;
+}
+
+nav {
+    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, .4);
+}
+
+h1.writinganimation {
+    overflow: hidden;
+    border-right: .12em solid rgb(1, 255, 255);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .19em;
+    animation:
+        typing 3.5s steps(4, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 56%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(9, 251, 255);
+    }
+}
+
+@keyframes deleting {
+    from {
+        width: 56%
+    }
+
+    to {
+        width: 0
+    }
+}
